@@ -1,1 +1,1 @@
-export function openAppStore(appId?: string): VoidFunction
+export default function OpenAppStore(appId?: string): VoidFunction
