@@ -1,0 +1,18 @@
+
+{
+  "name": "react-native-market",
+  "version": "1.0.0",
+  "description": "react-native打开本机应用市场进行更新，支持ios和安卓",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": "641261604@qq.com",
+  "license": "",
+  "peerDependencies": {
+    "react-native": "^0.63.4"
+  }
+}
