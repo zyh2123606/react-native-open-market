@@ -26,7 +26,7 @@
 
 ## Usage
 ```javascript
-import RNMarket from 'react-native-open-market';
+import openAppStoreToComment from 'react-native-open-market';
 
 // TODO: What to do with the module?
 RNMarket;
