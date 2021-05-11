@@ -1,7 +1,7 @@
   
 import { Linking, Platform, NativeModules } from 'react-native'
 
-const RNMarketCommentModule = NativeModules.RNMarketCommentModule
+const RNMarketCommentModule = NativeModules.RNMarketModule
 export default function OpenAppStore(appId) {
     if (Platform.OS === 'ios') {
         const url = `itms-apps://itunes.apple.com/cn/app/id${appId}?mt=8`

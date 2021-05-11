@@ -14,7 +14,7 @@ import com.facebook.react.bridge.Callback;
 
 public class RNMarketModule extends ReactContextBaseJavaModule {
 
-  private final ReactApplicationContext reactContext;
+  ReactApplicationContext reactContext;
   public RNMarketModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
@@ -22,7 +22,7 @@ public class RNMarketModule extends ReactContextBaseJavaModule {
 
   @Override
   public String getName() {
-    return "RNMarket";
+    return "RNMarketModule";
   }
   @ReactMethod
   public void openAppStore() {
