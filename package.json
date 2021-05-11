@@ -4,6 +4,10 @@
   "version": "1.0.0",
   "description": "react-native打开本机应用市场进行更新，支持ios和安卓",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyh2123606/react-native-open-market"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -25,7 +25,7 @@ public class RNMarketModule extends ReactContextBaseJavaModule {
     return "RNMarket";
   }
   @ReactMethod
-  public void openMarket() {
+  public void openAppStore() {
     Uri uri = Uri.parse("market://details?id=" + reactContext.getPackageName());
     Intent intent = new Intent(Intent.ACTION_VIEW,uri);
     intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
